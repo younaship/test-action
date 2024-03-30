@@ -17,6 +17,7 @@ fetch(WEBHOOK, {
   headers: {
     "Content-Type" : "application/json"
   },
+  method: "POST",
   body: JSON.stringify(data)
 })
 .then(r => {
