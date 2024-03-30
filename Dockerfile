@@ -8,6 +8,6 @@ FROM node:20-alpine
 
 # ENTRYPOINT ["/entrypoint.sh"]
 
-COPY main.js
+COPY main.js /main.js
 
 ENTRYPOINT ["node", "main.js"]
