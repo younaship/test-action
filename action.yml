@@ -1,0 +1,17 @@
+name: 'Sample Action'
+description: 'Sample Action'
+author: 'YnP'
+inputs:
+  message:
+    description: "Message"
+    default: "Not message."
+  # command_timeout:
+  #   description: 'timeout for scp command'
+  #   default: "10m"
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+
+branding:
+  icon: 'award'
+  color: 'green'
