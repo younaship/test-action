@@ -1,6 +1,6 @@
-name: 'Sample Action'
-description: 'Sample Action'
-author: 'YnP'
+name: Slack Actions
+description: Send to Slack with WebHook.
+author: HAMONI Inc - YnP
 inputs:
   webhook:
     description: "Slack WebHook URL"
